@@ -1,5 +1,64 @@
 .pokHeader{
     width:100%;
-    background-color: blue;
     height: 100px;
+    background-color: rgb(255, 145, 0);
+    display: flex; 
+    justify-content: space-between;
 }
+.leftPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:35px;
+} 
+
+.pokImg {
+    width:200px;
+    height: 60px;
+    background-color: transparent;
+   }
+
+.pokText{
+    color: white;
+    margin-left: 20px;
+    font-family: "Gotham-Light";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rightPart{
+    display: flex;
+    margin-right: 35px;
+    margin-top: 35px;
+    background-color:rgb(255, 145, 0) ;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 40px;
+}
+.searchSpan{
+    width: 50px;
+    height: 37px;
+    color: white;
+    size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+}
+.searchInput{
+    width: 175px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+.searchInput>placeholder{
+    color: white;
+}
+.searchInput:focus{
+    outline: none;
+}
+
